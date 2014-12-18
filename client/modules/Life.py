@@ -17,7 +17,8 @@ def handle(text, mic, profile):
                    number)
     """
     messages = ["It's 42, you idiot.",
-                "It's 42. How many times do I have to tell you?"]
+                "It's 42. How many times do I have to tell you?",
+                "You keep asking, but it's still 42."]
 
     message = random.choice(messages)
 
